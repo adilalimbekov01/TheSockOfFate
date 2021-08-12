@@ -94,7 +94,7 @@ const ProductContextProvider = ({ children }) => {
     });
   };
 
-  const buyProducts = () =>{
+  const buyProducts = () => {
     localStorage.clear()
   }
   const addProductToCart = (product) => {
