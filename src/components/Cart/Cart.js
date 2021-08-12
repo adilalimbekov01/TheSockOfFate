@@ -26,8 +26,6 @@ const useStyles = makeStyles({
     backgroundColor:'#ff7043',
     border: '2px solid #000',
     borderRadius:'10px',
-    // boxShadow: theme.shadows[5],
-    // padding: theme.spacing(2, 4, 3),
     marginLeft:'500px',
     marginTop:'200px',
     display:"flex",

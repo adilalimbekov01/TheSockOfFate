@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, alpha } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '56.25%', 
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -52,18 +52,18 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ProductCard = ({ item }) => {
-  const classes = useStyles();
-  const { deleteProduct, history, addProductToCart, cart, addProductToFavorites } = useProducts();
-  const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+  const classes = useStyles();
+
+  const { deleteProduct, history, addProductToCart, cart, addProductToFavorites } = useProducts();
+
+  const [expanded, setExpanded] = React.useState(false);
 
   const checkItemInCart = (id) => {
     const foundItem = cart?.products?.find((product) => product.item.id === id);
     return foundItem ? 'secondary' : 'default';
   };
+
   const checkItemInFav = (id) => {
     const foundItem = cart?.products?.find((product) => product.item.id === id);
     return foundItem ? 'yellow' : 'default';

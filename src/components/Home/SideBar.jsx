@@ -14,7 +14,6 @@ import {
   import { useState } from "react";
   import HomeIcon from '@material-ui/icons/Home';
   import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
-  import StarIcon from '@material-ui/icons/Star';
   import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 import { Link } from "react-router-dom";
   
