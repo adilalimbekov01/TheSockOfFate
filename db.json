@@ -25,11 +25,11 @@
       "id": 6
     },
     {
-      "title": "Носки \"Friends\"",
+      "title": "Носки \"Мишка\"",
       "type": "Baby",
       "image": "https://vyboroved.ru/images/reyting/luchie-noski/luchie-noski.jpg",
-      "description": "Бренд",
-      "price": "250",
+      "description": "Стиль",
+      "price": "270",
       "id": 7
     },
     {
@@ -39,14 +39,6 @@
       "description": "Стиль",
       "price": "250",
       "id": 8
-    },
-    {
-      "title": "Носки \"Бабочки\"",
-      "type": "Feminine",
-      "image": "https://kosmo-shop.com/25633/noski-babochki.jpg",
-      "description": "Стиль",
-      "price": "350",
-      "id": 9
     },
     {
       "title": "Носки красные, с полосками",
@@ -65,15 +57,7 @@
       "id": 12
     },
     {
-      "title": " Водонепронецаемые носки",
-      "type": "Male",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPBXl8v4n6MuSKpqjsHAMscJGRJxZbJCt6eQ&usqp=CAU",
-      "description": "Особенность",
-      "price": "500",
-      "id": 13
-    },
-    {
-      "title": "Носки однотонные",
+      "title": "Носки светлые",
       "type": "Baby",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvoA_N8PCsZftdB8N5W1sPXL2J3_yto1doA&usqp=CAU",
       "description": "Стиль",
@@ -81,12 +65,20 @@
       "id": 14
     },
     {
-      "title": "Носки \"Радуга\"",
-      "type": "Feminine",
-      "image": "data:image/jpeg;base64,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",
-      "description": "Стиль",
-      "price": "250",
+      "title": "Женские",
+      "type": "Стиль",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvoA_N8PCsZftdB8N5W1sPXL2J3_yto1doA&usqp=CAU",
+      "description": "Милость",
+      "price": "150",
       "id": 15
+    },
+    {
+      "title": "Носки Розовые",
+      "type": "Стиль",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvoA_N8PCsZftdB8N5W1sPXL2J3_yto1doA&usqp=CAU",
+      "description": "Комфорт",
+      "price": "245",
+      "id": 16
     }
   ],
   "users": [
